@@ -2,7 +2,9 @@ class PalindromeNum
 {
   public static void main(String arg[])
   {
-    int num = 78893;
+    System.out.println(" Main Start");
+
+    int num = 3893;
     int num2 = num;
     int rem =0;
      
@@ -16,5 +18,8 @@ class PalindromeNum
          System.out.println("Number is Palindrome "+num2);
     else
         System.out.println("Number is Not Palindrome "+num2);
+
+   System.out.println("Main End");
+
   }
 }
