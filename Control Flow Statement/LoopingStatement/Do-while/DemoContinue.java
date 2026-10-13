@@ -8,7 +8,9 @@ class DemoContinue
        {
          continue;
        }
-      System.out.println(i);
+      System.out.print(i);
+      System.out.print(" "+i);
+      System.out.println();
     }
   }
   
